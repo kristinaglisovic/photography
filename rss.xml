@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <rss version="2.0">
+   <channel>
+     <item>
+       <title>Nove fotografije</title>
+       <description>Poštovani korisnici, izašle su nove fotografije na sajtu!</description>
+       <link>https://kimixphotography.netlify.com/galerija.html</link>    
+    </item>>
+   </channel>
+  </rss>

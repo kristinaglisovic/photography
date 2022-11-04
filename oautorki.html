@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>O autorki</title>
+                <meta charset="utf-8"/>
+                <meta name="keywords" content="autorka,kimix,info,biografija,kontakt"/>
+                <meta name="description" content="Na ovoj stranici saznaćete o životu autorke ovog sajta"/>
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+                <link rel="shortcut icon" type="image/png" href="webicon/logo-web.png"/>
+                <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        </head>
+        <body>
+    
+           <!---Meni--->
+
+             <header id="zaglavlje">
+               <div id="logo">
+                  <a href="index.html" title="Početna stranica">
+                   <img src="logo/sajt-logo-res.png" alt="Logo sajta"/>
+                  </a>
+               </div> 
+               <nav id="navigacija">
+                 <ul>
+                   <li>
+                    <a href="index.html">Početna</a>
+                   </li>
+                   <li>
+                    <a href="fotografija.html">Fotografija</a>
+                   </li>
+                   <li>
+                    <a href="galerija.html">Galerija</a>
+                   </li>
+                   <li>
+                    <a href="videointervjui.html">Video intervjui</a>
+                   </li>
+                   <li>
+                    <a class="active" href="oautorki.html">O autorki</a>
+                   </li>
+                   </ul>
+               </nav>
+            </header>
+    
+          <!---Socijalni mediji--->
+              
+            <div class='ikone'>
+             <ul>
+              <li class="facebook">
+                 <a href="https://www.facebook.com/kimixphotography"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li class="instagram">
+                 <a href="https://www.instagram.com/kimixphotography7/"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li class="gmail">
+                 <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kimixphotography@gmail.com" target="blank"><i class="fa fa-google"></i></a>
+              </li>
+              <li class="github">
+               <a href="https://github.com/KimixPhotography/photography"><i class="fa fa-github"></i></a>
+             </li>
+            </ul>
+          </div>
+
+          <!--sredina-->
+
+              <main id="sredinaautor">
+                 <div id="profilna">
+                    <img src="img/profilna.jpg" alt="profilna"/>
+                 </div>
+                 <div id="biografija">
+                    <h1>O autorki Kristini Glišović</h1>
+                    <p> Rođena sam 20. septembra 2000. godine u Gornjem Milanovcu i trenutno studiram Visoku ICT školu. 
+                        Fotografija je za mene poseban način kojim kroz objektiv izražavam svoj pogled na svet. 
+                        Ovom vrstom umetnosti se bavim zato što u njoj vidim slobodu u izražavanju emocija i misli, koje mogu izraziti jednom običnom fotografijom.
+                        Najviše volim da fotografišem ljude u spontanim momentima, jer tada mogu da prikažem jedan deo njihove prave ličnosti.
+                        Pored fotografije, bavim se i raznim sportovima, muzikom i filmom, u kojima sam takođe uspešna.</p>
+                 </div>
+              </main>
+
+         <!--forma-->
+         <div id="oceneipng">
+              <form action="kimix.php" method="POST">
+                <table id="kontakt">
+				   	<tr>
+					   	<th colspan="2">Ocene i kontakt</th>
+				   	</tr>
+					   <tr>
+						   <td class="naziv">Ime i prezime*</td>
+						   <td class="razmak">
+							<input class="input" type="text" name="imeiprezime" id="imeiprezime" placeholder="Vaše ime i prezime" required/>
+						   </td>
+					   </tr>
+					   <tr>
+					   	<td class="naziv">E-mail*</td>
+						   <td class="razmak">
+                     <input class="input" type="email" id="tbEmail" name="tbEmail" placeholder="Vaš e-mail" required/>
+						   </td>
+				   	</tr>
+                 <tr>
+                     <td class="naziv">Poruka*</td>
+                     <td class="razmak">
+                     <textarea name="tekstualnopolje" class="input" rows="5" cols="30" placeholder="Unesite vaš tekst ovde..." required></textarea> 
+                     </td>
+                 </tr>
+                 <tr>
+                     <td class="naziv">Ocena fotografija od 1 do 5</td>
+                     <td class="razmak ocena">
+                        <a class="fa fa-star b1"></a>
+                        <a class="fa fa-star b2"></a>
+                        <a class="fa fa-star b3"></a>
+                        <a class="fa fa-star b4"></a>
+                       <a class="fa fa-star b5"></a>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td id="dugme">
+                     <input id="dugme1" type="submit" value="Pošalji" name="dugmeunesi"/>
+                  </td>
+               </tr>
+              </table>
+             </form>
+          <div id="ocenapng"><img src="img/plavakima.png" alt="plavakima"/></div>
+         </div>
+
+          <!---Donji deo--->
+    
+            <footer>
+                 <aside id="futerlevo">
+                     <p>Knjiga i e-mail</p>
+                        <ul>
+                        <li>
+                          <a href="vodic/Vodič-kroz-fotošop.pdf">Knjiga</a>
+                        </li>
+                        <li>
+                          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=kimixphotography@gmail.com" target="blank">kimixphotography&#64;gmail&#46;com</a>
+                        </li>
+                        </ul>
+                 </aside>
+                  <div id="futerdesnoautor">
+                       <p>Sitemap sajta</p>
+                        <div id="sitemap">
+                         <a href="sitemap.xml"><i class="fa fa-sitemap"></i></a>
+                       </div>
+                  </div>
+               
+                <!--Dugme za povratak-->
+               
+                  <div id="topdugme">
+                         <a href="#"><i class="fa fa-arrow-up"></i></a>
+                  </div>
+            </footer>
+   </body>
+</html>
